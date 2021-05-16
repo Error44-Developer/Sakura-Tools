@@ -1,2 +1,2 @@
 # Tools
-A small open source project. There are approaches and ideas for a global bot, but the bot is not yet finished...
+Here you can find small commands I made for discord bots that you can use for your bot and they are available for free to users.
