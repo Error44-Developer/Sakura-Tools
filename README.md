@@ -1,3 +1,2 @@
-# Sakura-Tools
-## Sakura Discord bot small commands
+# Tools
 A small open source project. There are approaches and ideas for a global bot, but the bot is not yet finished...
