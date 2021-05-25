@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 
-bot = commands.Bot(command_prefix='') # Dein Prefix
+bot = commands.Bot(command_prefix='')
 bot.remove_command('help')
 
 
@@ -22,13 +22,13 @@ async def status_task():
 
 @bot.event
 async def on_ready():
-    print (" ") #message
+    print (" ")
  
  
 @bot.event
 async def on_message(message):
-    if(message.channel.id == " "): #channel_id
-        await bot.add_reaction(message, "discord_emote_id_here") #emote_id
+    if(message.channel.id == " "):
+        await bot.add_reaction(message, "discord_emote_id_here")
 
 
 
