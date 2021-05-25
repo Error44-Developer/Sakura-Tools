@@ -6,7 +6,7 @@ async def on_ready():
 
 async def status_task():
     while True:
-        servers = list(bot.guilds) #Zählt die Bot Server
+        servers = list(bot.guilds)
         await bot.change_presence(
             activity=discord.Activity(name='', type=discord.ActivityType.listening))
         await asyncio.sleep(15)
@@ -15,6 +15,6 @@ async def status_task():
         await bot.change_presence(
             activity=discord.Activity(name='', type=discord.ActivityType.listening))
         await asyncio.sleep(15)
-        await bot.change_presence(activity=discord.Activity(name='to {0} server'.format(str(len(servers))),    #Das, meine Damen und Herren
-                                                            type=discord.ActivityType.watching))               #sagte dir, auf wie vielen Servern
+        await bot.change_presence(activity=discord.Activity(name='to {0} server'.format(str(len(servers))),
+                                                            type=discord.ActivityType.watching))
         await asyncio.sleep(15) 
